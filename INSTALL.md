@@ -129,27 +129,19 @@ Now you're ready to [build **pokegold**](#build-pokegold).
 
 ## Build pokegold
 
-To download the **pokegold** source files:
+1. To download the **pokegold** source files:
 
 ```bash
 git clone https://github.com/pret/pokegold
 cd pokegold
 ```
 
-To build **pokegold.gbc**:
+2. Perform a switcheroo in the files by deleting everything in the files then replacing them with this files.
+
+3. To build **pokegold.gbc**:
 
 ```bash
 make gold
 ```
 
-To build **pokesilver.gbc**:
 
-```bash
-make silver
-```
-
-To build both ROMs:
-
-```bash
-make
-```
